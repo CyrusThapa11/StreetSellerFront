@@ -1,0 +1,158 @@
+export const products = [
+  {
+    id: "someID-1",
+    stars: 5,
+    name: "Food",
+    numReviews: 10,
+    price: 100.666,
+    category: "Fruits",
+    seller: "Naman Kumar",
+    locality: "Noida",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur qui excepturi, quisquam animi ullam. Id quod sunt ad nam?",
+    images: [
+      "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      "https://images.unsplash.com/photo-1579613832125-5d34a13ffe2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    ],
+  },
+
+  {
+    id: "someID-2",
+    stars: 5,
+    name: "Food",
+    price: 100.444,
+    numReviews: 10,
+    category: "Fruits",
+    seller: "Naman Kumar",
+    locality: "Noida",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur qui excepturi, quisquam animi ullam. Id quod sunt ad nam?",
+    images: [
+      "https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1972&q=80",
+      "https://images.unsplash.com/photo-1568909344668-6f14a07b56a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "https://images.unsplash.com/photo-1568909344668-6f14a07b56a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+    ],
+  },
+  {
+    id: "someID-3",
+    stars: 5,
+    name: "Food",
+    price: 100.9999,
+    numReviews: 10,
+    category: "Fruits",
+    seller: "Naman Kumar",
+    locality: "Noida",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur qui excepturi, quisquam animi ullam. Id quod sunt ad nam?",
+    images: [
+      "https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "https://plus.unsplash.com/premium_photo-1667544654787-cd984212004d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1577805947697-89e18249d767?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=398&q=80",
+      "https://images.unsplash.com/photo-1553787499-6f9133860278?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    ],
+  },
+  {
+    id: "someID-4",
+    stars: 5,
+    name: "Food",
+    price: 100.3333,
+    numReviews: 10,
+    category: "Fruits",
+    seller: "Naman Kumar",
+    locality: "Noida",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur qui excepturi, quisquam animi ullam. Id quod sunt ad nam?",
+    images: [
+      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1607532941433-304659e8198a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1078&q=80",
+    ],
+  },
+  {
+    id: "someID-5",
+    stars: 5,
+    name: "Food",
+    price: 100.5443,
+    numReviews: 10,
+    category: "Fruits",
+    seller: "Naman Kumar",
+    locality: "Noida",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur qui excepturi, quisquam animi ullam. Id quod sunt ad nam?",
+    images: [
+      "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=480&q=80",
+      "https://images.unsplash.com/photo-1626074353765-517a681e40be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    ],
+  },
+  {
+    id: "someID-6",
+    stars: 5,
+    name: "Food",
+    price: 100.2334,
+    numReviews: 10,
+    category: "Fruits",
+    seller: "Naman Kumar",
+    locality: "Noida",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur qui excepturi, quisquam animi ullam. Id quod sunt ad nam?",
+    images: [
+      "https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "https://images.unsplash.com/photo-1625398407796-82650a8c135f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+      "https://images.unsplash.com/photo-1517244683847-7456b63c5969?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
+    ],
+  },
+  {
+    id: "someID-7",
+    stars: 5,
+    name: "Food",
+    price: 100.8755,
+    numReviews: 10,
+    category: "Fruits",
+    seller: "Naman Kumar",
+    locality: "Noida",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur qui excepturi, quisquam animi ullam. Id quod sunt ad nam?",
+    images: [
+      "https://images.unsplash.com/photo-1593560704563-f176a2eb61db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "https://images.unsplash.com/photo-1606471191009-63994c53433b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",
+      "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1371&q=80",
+    ],
+  },
+  {
+    id: "someID-8",
+    stars: 5,
+    name: "Food",
+    price: 100.3333,
+    numReviews: 10,
+    category: "Fruits",
+    seller: "Naman Kumar",
+    locality: "Noida",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur qui excepturi, quisquam animi ullam. Id quod sunt ad nam?",
+    images: [
+      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1607532941433-304659e8198a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1078&q=80",
+    ],
+  },
+  {
+    id: "someID-9",
+    stars: 5,
+    name: "Food",
+    price: 100.444,
+    numReviews: 10,
+    category: "Fruits",
+    seller: "Naman Kumar",
+    locality: "Noida",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur qui excepturi, quisquam animi ullam. Id quod sunt ad nam?",
+    images: [
+      "https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1972&q=80",
+      "https://images.unsplash.com/photo-1568909344668-6f14a07b56a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "https://images.unsplash.com/photo-1568909344668-6f14a07b56a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+    ],
+  },
+];
