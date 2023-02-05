@@ -83,7 +83,7 @@ const LoginForm = ({ toggleLogin }) => {
       <Container py={{ base: "10", md: "16" }} px={{ base: "0", sm: "8" }}>
         <Stack
           spacing="8"
-          bgColor={"whiteAlpha.300"}
+          bgColor={"whiteAlpha.600"}
           p="3"
           rounded="lg"
           boxShadow={"xl"}
@@ -109,7 +109,7 @@ const LoginForm = ({ toggleLogin }) => {
             py={{ base: "0", sm: "3" }}
             px={{ base: "4", sm: "10" }}
             bg={useBreakpointValue({ base: "transparent", sm: "bg-surface" })}
-            boxShadow={{ base: "none", sm: useColorModeValue("md", "md-dark") }}
+            // boxShadow={{ base: "none", sm: useColorModeValue("md", "md-dark") }}
             borderRadius={{ base: "none", sm: "xl" }}
           >
             <Stack spacing="6">

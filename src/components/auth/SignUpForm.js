@@ -74,7 +74,7 @@ const SignInForm = ({ toggleLogin }) => {
       >
         <Stack
           spacing="1"
-          bgColor={"whiteAlpha.300"}
+          bgColor={"whiteAlpha.600"}
           p="2"
           rounded="lg"
           boxShadow={"xl"}
@@ -100,7 +100,7 @@ const SignInForm = ({ toggleLogin }) => {
             py={{ base: "0", sm: "4" }}
             px={{ base: "2", sm: "6" }}
             bg={useBreakpointValue({ base: "transparent", sm: "bg-surface" })}
-            boxShadow={{ base: "none", sm: useColorModeValue("md", "md-dark") }}
+            // boxShadow={{ base: "none", sm: useColorModeValue("md", "md-dark") }}
             borderRadius={{ base: "none", sm: "xl" }}
           >
             <Stack spacing="3">
