@@ -104,13 +104,13 @@ const SellerCreaterProduct = () => {
 
         const { data } = await axios.post(
           "https://api.cloudinary.com/v1_1/vinsmokecyrus/image/upload",
-          Formdata,
-          {
-            headers: {
-              "X-Requested-With": "XMLHttpRequest",
-              authorization: `Bearer ${AppState.user.token}`,
-            },
-          }
+          Formdata
+          // {
+          //   headers: {
+          //     "X-Requested-With": "XMLHttpRequest",
+          //     authorization: `Bearer ${AppState.user.token}`,
+          //   },
+          // }
         );
         uploadedImages.push(data.secure_url);
       }
@@ -147,7 +147,11 @@ const SellerCreaterProduct = () => {
       };
       const { data } = await Axios.post(
         "/product/",
-        { ...newProduct },
+        {
+          ...newProduct,
+          isSeller: AppState.user.isSeller,
+          isAdmin: AppState.user.isAdmin,
+        },
         {
           headers: {
             authorization: `Bearer ${AppState.user.token}`,
@@ -350,7 +354,7 @@ const SellerCreaterProduct = () => {
                 />
               </FormControl>
               <FormControl>
-                <FormLabel htmlFor="price">Price per unit/quantity</FormLabel>
+                <FormLabel htmlFor="description">Description</FormLabel>
                 <Input
                   onChange={(e) =>
                     setProduct({ ...Product, [e.target.name]: e.target.value })

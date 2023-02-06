@@ -4,6 +4,8 @@ import ProductsSidebar from "../../components/product/ProductsSidebar";
 import ProductsList from "../../components/product/ProductsList";
 
 const AllProducts = () => {
+
+  
   return (
     <>
       <Box minH="100vh" bgColor={"white.300"}>

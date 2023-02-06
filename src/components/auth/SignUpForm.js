@@ -153,7 +153,7 @@ const SignInForm = ({ toggleLogin }) => {
                     type="city"
                   />
                 </FormControl>
-                <FormControl>
+                {/* <FormControl>
                   <FormLabel htmlFor="image">image</FormLabel>
                   <Input
                     name="image"
@@ -164,7 +164,7 @@ const SignInForm = ({ toggleLogin }) => {
                     id="image"
                     type="image"
                   />
-                </FormControl>
+                </FormControl> */}
                 <FormControl>
                   <FormLabel htmlFor="password">Person</FormLabel>
                   <RadioGroup
